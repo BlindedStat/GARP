@@ -11,13 +11,13 @@ We have included the real data set in the `data.Rdata` file. It can be loaded vi
 - Rows: cells (statistical units);
 - Columns: “MDS1” and “MDS2” represent the two biomarkers describing the gene expression scores.
 
-i\p	        |    MDS1   |	      MDS2
-OEP01_N706_S501 |-0.7139231 |	-0.94959181
-OEP01_N701_S501	|-0.6274044 |	-0.09495844
-OEP01_N707_S507	|-1.0055568 |	-0.27521693
-OEP01_N705_S501	|-0.8102099 |	 0.19664808
-OEP01_N709_S501	| 0.1190077 |	-0.03042750
-OEP01_N702_S505	|-1.1606041 |	-0.99415583
+| i\p	          | MDS1      | MDS2        |
+| OEP01_N706_S501 |-0.7139231 |	-0.94959181 |
+| OEP01_N701_S501 |-0.6274044 |	-0.09495844 |
+| OEP01_N707_S507 |-1.0055568 |	-0.27521693 |
+| OEP01_N705_S501 |-0.8102099 |	 0.19664808 |
+| OEP01_N709_S501 | 0.1190077 |	-0.03042750 |
+| OEP01_N702_S505 |-1.1606041 |	-0.99415583 |
 
 In the table above, we display the first six rows of the dataset. They can be shown in R via head(Data).
 Code

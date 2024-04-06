@@ -20,9 +20,11 @@ We have included the real data set in the `data.Rdata` file. It can be loaded vi
 | OEP01_N709_S501 | 0.1190077 |	-0.03042750 |
 | OEP01_N702_S505 |-1.1606041 |	-0.99415583 |
 
-In the table above, we display the first six rows of the dataset. They can be shown in R via head(Data).
-Code
-Abstract 
+In the table above, we display the first six rows of the dataset. They can be shown in R via `head(Data)`.
+
+### Code
+**Abstract**
+
 The codes are written in R. 
 The codes comprise two main programs:
 

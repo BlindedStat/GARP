@@ -1,10 +1,10 @@
 # GARP
 This repository contains the code for the paper "Graph-Aligned Random Partition Model (GARP)"
 
-Reproducibility Checklist
-Data
-Abstract
-We have included the real data set in the “data.Rdata” file. It can be loaded via load(“../Data-and-Results/data.Rdata") The data set is described in Section 8 of the main paper. It is in the format of a 747x2 matrix, where
+### Reproducibility Checklist
+*Data*
+*Abstract*
+We have included the real data set in the \texttt{data.Rdata} file. It can be loaded via load(“../Data-and-Results/data.Rdata") The data set is described in Section 8 of the main paper. It is in the format of a 747x2 matrix, where
 •	Rows: cells (statistical units);
 •	Columns: “MDS1” and “MDS2” represent the two biomarkers describing the gene expression scores.
 
@@ -26,7 +26,7 @@ The codes comprise two main programs:
  
  2. GARP_fcts.R: This file contains all the R functions needed to run the main script, including the MCMC function to implement the sampler described in Section 6 of the main manuscript. 
 	
-Description 
+### Description 
 The codes are included in a zipped file. The main file to run is GARP_main.R. The main file calls functions that are also included in the zipped file. The implementation is highly automated - the main function implementing the GARP model takes in the matrix (as described above) as an argument and a few additional parameters.
 
 

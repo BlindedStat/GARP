@@ -33,7 +33,10 @@ The codes comprise two main programs:
  2. `GARP_fcts.R`: This file contains all the R functions needed to run the main script, including the MCMC function to implement the sampler described in Section 6 of the main manuscript. 
 	
 ### Description 
-The codes are included in a zipped file. The main file to run is GARP_main.R. The main file calls functions that are also included in the zipped file. The implementation is highly automated - the main function implementing the GARP model takes in the matrix (as described above) as an argument and a few additional parameters.
+The codes are included in a zipped file. 
+The main file to run is `GARP_main.R`. 
+The main file calls functions that are also included in the zipped file. 
+The implementation is highly automated - the main function implementing the GARP model takes in the matrix (as described above) as an argument and a few additional parameters.
 
 
 The MCMC algorithm takes around 30 minutes on a Lenovo machine with 32 Gb RAM. Alternatively, the user can load the results from a previous run of the algorithm (instructions in the body of the R script). Additional descriptions and instructions are included as detailed comments in the body of the R scripts.
@@ -41,5 +44,5 @@ The MCMC algorithm takes around 30 minutes on a Lenovo machine with 32 Gb RAM. A
 ### Instructions for Use
 **Reproducibility**
 
-The file GARP_main.R reproduces the results presented in the manuscript. On top of every plot command in the main R script, there is a header describing where that plot appears in the manuscript.
+The file `GARP_main.R` reproduces the results presented in the manuscript. On top of every plot command in the main R script, there is a header describing where that plot appears in the manuscript.
 

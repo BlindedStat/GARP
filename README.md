@@ -12,6 +12,7 @@ We have included the real data set in the `data.Rdata` file. It can be loaded vi
 - Columns: “MDS1” and “MDS2” represent the two biomarkers describing the gene expression scores.
 
 | i\p	          | MDS1      | MDS2        |
+|-----------------|-----------|-------------|
 | OEP01_N706_S501 |-0.7139231 |	-0.94959181 |
 | OEP01_N701_S501 |-0.6274044 |	-0.09495844 |
 | OEP01_N707_S507 |-1.0055568 |	-0.27521693 |

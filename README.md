@@ -28,14 +28,14 @@ In the table above, we display the first six rows of the dataset. They can be sh
 The codes are written in R. 
 The codes comprise two main programs:
 
- 1. `GARP_main.R`: The main script runs the analysis by calling the functions included in the other files. This script produces the MCMC samples of the single-cell RNA data analysis and reproduces the results of the analysis summarized in the main manuscript.
+ 1. `GARP_main.R`: The main script runs the analysis by calling the functions included in the other files.
+ 2. This script produces the MCMC samples of the single-cell RNA data analysis and reproduces the results of the analysis summarized in the main manuscript.
  
- 2. `GARP_fcts.R`: This file contains all the R functions needed to run the main script, including the MCMC function to implement the sampler described in Section 6 of the main manuscript. 
+ 3. `GARP_fcts.R`: This file contains all the R functions needed to run the main script, including the MCMC function to implement the sampler described in Section 6 of the main manuscript. 
 	
 ### Description 
-The codes are included in a zipped file. 
+The codes are included in this GitHub folder.
 The main file to run is `GARP_main.R`. 
-The main file calls functions that are also included in the zipped file. 
 The implementation is highly automated - the main function implementing the GARP model takes in the matrix (as described above) as an argument and a few additional parameters.
 
 
